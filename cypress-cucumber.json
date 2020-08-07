@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+
+  "baseUrl": "http://demo.automationtesting.in",
+  "watchForFileChanges": true,
+  "experimentalSourceRewriting": true,
+  "testFiles": "**/*.{feature,features}",
+  "screenshotOnRunFailure":false,
+  "videoUploadOnPasses":false
+}

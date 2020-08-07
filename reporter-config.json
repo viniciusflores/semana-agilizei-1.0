@@ -1,0 +1,10 @@
+{
+  "reporterEnabled": "mochawesome",
+  "mochawesomeReportersOptions": {
+    "reportDir": "mochawesome-report",
+    "quiet": true,
+    "overwise":false,
+    "html":false,
+    "json":true
+  }
+}
