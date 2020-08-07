@@ -1,0 +1,154 @@
+[
+  {
+    "description": "  In app home page\n  As a client\n  I want see the users on table",
+    "keyword": "Feature",
+    "name": "List",
+    "line": 1,
+    "id": "list",
+    "tags": [],
+    "uri": "list.feature",
+    "elements": [
+      {
+        "id": "list;list-empty",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "List empty",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the site don't have register",
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I access the list",
+            "result": {
+              "status": "passed",
+              "duration": 7217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "must see a empty list",
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "list;list-with-one-register",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "List with one register",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "the site has only one register",
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I access the list",
+            "result": {
+              "status": "passed",
+              "duration": 3424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "must see a list with only one user",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  In app\n  As a client\n  I want make my register ",
+    "keyword": "Feature",
+    "name": "Register",
+    "line": 1,
+    "id": "register",
+    "tags": [],
+    "uri": "register.feature",
+    "elements": [
+      {
+        "id": "register;register-new-user",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Register new user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "open the site",
+            "result": {
+              "status": "passed",
+              "duration": 7379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "fill the fields",
+            "result": {
+              "status": "passed",
+              "duration": 3752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "click in save",
+            "result": {
+              "status": "passed",
+              "duration": 220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user is register with successful",
+            "result": {
+              "status": "passed",
+              "duration": 7332000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

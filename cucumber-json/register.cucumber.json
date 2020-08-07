@@ -1,0 +1,63 @@
+[
+  {
+    "description": "  In app\n  As a client\n  I want make my register ",
+    "keyword": "Feature",
+    "name": "Register",
+    "line": 1,
+    "id": "register",
+    "tags": [],
+    "uri": "register.feature",
+    "elements": [
+      {
+        "id": "register;register-new-user",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Register new user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "open the site",
+            "result": {
+              "status": "passed",
+              "duration": 7379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "fill the fields",
+            "result": {
+              "status": "passed",
+              "duration": 3752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "click in save",
+            "result": {
+              "status": "passed",
+              "duration": 220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user is register with successful",
+            "result": {
+              "status": "passed",
+              "duration": 7332000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
